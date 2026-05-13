@@ -8,6 +8,6 @@ app_license     = "MIT"
 
 doc_events = {
     "Delivery Note": {
-        "on_submit": "dn_mailer.mailer.delivery_note_xlsx.send_delivery_note_xlsx",
+        "on_submit": "dn_mailer.delivery_note_xlsx.send_delivery_note_xlsx",
     }
 }
